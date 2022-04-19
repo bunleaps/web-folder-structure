@@ -1,4 +1,4 @@
-# Web-Dev Folder Structure
+# 🚀 Web-Dev Folder Structure
 
 A simple folder structure for web development, especially for landing
 pages. Everything is organized in its folder such as Library & Outside
@@ -16,8 +16,11 @@ Features include:
 - Media Folder: Images, Icons, Favicon, Videos, Font-Face
 - Pages Folder: All Pages of the Project
 
-## Usage
+## Usage & Download
 
 Get the folder structure by cloning this [repo](https://github.com/bunleaps/web-folder-structure).
 
 If you want a blank version of this folder structure, you can download via this [link](https://github.com/bunleaps/web-folder-structure/releases/tag/v.0.1.0)!
+
+## FAQ
+See the about [page](https://bunleaps.github.io/web-folder-structure/pages/about.html). You can also reach out to me personally via [Email](mailto:bunleap.sorn@gmail.com).
