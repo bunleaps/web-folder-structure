@@ -20,4 +20,4 @@ Features include:
 
 Get the folder structure by cloning this [repo](https://github.com/bunleaps/web-folder-structure).
 
-If you want a blank version of this folder structure, you can download via this [link](#usage)!
+If you want a blank version of this folder structure, you can download via this [link](https://github.com/bunleaps/web-folder-structure/releases/tag/v.0.1.0)!
