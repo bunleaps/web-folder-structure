@@ -37,6 +37,16 @@ h1 {
   line-height: 1.15;
 }
 
+h1 > span {
+  color: var(--pri-bg-color);
+  cursor: pointer;
+}
+
+h1 > span:hover {
+  color: #2d88f0;
+  text-decoration: underline;
+}
+
 p {
   margin-top: 1.5rem;
 
@@ -67,4 +77,16 @@ button {
 
 button:hover {
   background-color: var(--sec-bg-color);
+}
+
+.description {
+  width: 50%;
+}
+
+.description > span {
+  padding: 0.2rem;
+
+  background-color: var(--code-bg-color);
+  border-radius: 5px;
+  font-family: var(--font-face-monospace);
 }
