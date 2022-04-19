@@ -1,0 +1,70 @@
+:root {
+  --color: #000;
+  --color-invert: #fff;
+  --pri-bg-color: #0070f3;
+  --sec-bg-color: #2d88f0;
+  --code-bg-color: #e9e9e9;
+  --font-face: "Segoe UI", sans-serif;
+  --font-face-monospace: Roboto Mono, monospace;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+
+  font-family: var(--font-face);
+}
+
+.container {
+  width: initial;
+  height: inherit;
+  padding: 0 2rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+
+  text-align: center;
+  font-size: 4rem;
+  line-height: 1.15;
+}
+
+p {
+  margin-top: 1.5rem;
+
+  text-align: center;
+}
+
+code {
+  padding: 0.5rem;
+
+  background-color: var(--code-bg-color);
+  border-radius: 5px;
+  font-family: var(--font-face-monospace);
+}
+
+button {
+  margin-top: 1.5rem;
+  width: 150px;
+  height: 50px;
+
+  background-color: var(--pri-bg-color);
+  color: var(--color-invert);
+  font-size: initial;
+  font-family: var(--font-face);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--sec-bg-color);
+}
